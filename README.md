@@ -7,7 +7,7 @@ python3 sha1_dec.py <salt> <hash> <wordlist>
 - By alias:
 ```
 # into ~/.zshrc create a new alias.
-alias sha1totext='python3 sha1_dec.py'
+alias sha1totext='python3 /full/file/route/to/sha1_dec.py'
 ```
 
 ```
