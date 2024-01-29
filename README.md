@@ -25,7 +25,10 @@ Password cracking tool that attempts to find the original password from a given 
 - The script then exits.
 
 ---
-
+## Require:
+```
+# pip install tqdm
+```
 ## Usage:
 - straight:
 ```
