@@ -29,6 +29,7 @@ Password cracking tool that attempts to find the original password from a given 
 ```
 pip install tqdm
 ```
+![Python](https://pypi-camo.freetls.fastly.net/6c7e16a4732b3e24d08c464d155bde3b89d95f80/68747470733a2f2f696d672e736869656c64732e696f2f707970692f707976657273696f6e732f7471646d2e7376673f6c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465)
 
 ---
 
