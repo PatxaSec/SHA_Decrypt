@@ -2,7 +2,7 @@
 ## Usage:
 - straight:
 ```
-python3 sha1_dec.py <salt> <hash> <wordlist>
+python3 /full/file/route/to/sha1_dec.py <salt> <hash> <wordlist>
 ```
 - By alias:
 ```
