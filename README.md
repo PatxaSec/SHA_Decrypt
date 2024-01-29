@@ -1,9 +1,9 @@
-# Herramienta para descifrar hashes SHA1 mediante ataque de diccionario.
+# Herramienta para descifrar hashes SHA mediante ataque de diccionario.
 Herramienta para descifrar contraseñas que intenta encontrar la contraseña original a partir de un hash y una salt dados. Utiliza una lista de palabras para probar cada contraseña y aplicar el hash utilizando el algoritmo de hash especificado (SHA1 en este caso). Si el hash de una contraseña intentada coincide con el hash dado, la contraseña se considera encontrada y se muestra.
 
 ---
 
-# Tool for cracking SHA1 hashes by dictionary attack.
+# Tool for cracking SHA hashes by dictionary attack.
 Password cracking tool that attempts to find the original password from a given hash and salt. It uses a wordlist to try each password and hash it using the specified hash algorithm (SHA1 in this case). If the hash of a tried password matches the given hash, the password is considered found and displayed.
 
 ---
