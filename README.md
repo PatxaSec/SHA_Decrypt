@@ -36,8 +36,4 @@ Processing:  10%|██████████████▉              | 14
 Found Password:monkeybizness, hash:$SHA1$d$uP0_QaVBpDWFeo8-dRzDqRwXQ2I=
 Processing:  10%|██████████████▉              | 1478437/14344392 [00:03<00:31, 413593.99it/s]
 ```
-## Install:
-```
-git clone https://github.com/PatxaSec/SHA1_Decrypt.git
 
-```
