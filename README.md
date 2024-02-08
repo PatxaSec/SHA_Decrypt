@@ -19,12 +19,12 @@ pip install tqdm
 ## Usage:
 - straight:
 ```
-python3 /full/file/path/to/sha1_dec.py <salt> <hash> <wordlist>
+python3 /full/file/path/to/sha2text.py <salt> <hash> <wordlist>
 ```
 - By alias:
 ```
 # into ~/.zshrc create a new alias.
-alias sha2text='python3 /full/file/path/to/sha1_dec.py'
+alias sha2text='python3 /full/file/path/to/sha2text.py'
 ```
 
 ```
@@ -42,7 +42,7 @@ python3 sha1_dec.py 'd' '$SHA1$d$uP0_QaVBpDWFeo8-dRzDqRwXQ2I=' '/usr/share/wordl
 
 ## Output:
 ```bash
-└─$ python3 sha2text.py 'd' '$SHA1$d$uP0_QaVBpDWFeo8-dRzDqRwXQ2I=' '/usr/share/wordlists/rockyou.txt'
+└─$ sha2text 'd' '$SHA1$d$uP0_QaVBpDWFeo8-dRzDqRwXQ2I=' '/usr/share/wordlists/rockyou.txt'
 Processing:  10%|██████████████████████▎                                                                                                                                                                     | 1478437/14344392 [00:04<00:34, 369078.27it/s]
 
  [+] Pwnd !!! $SHA1$d$uP0_QaVBpDWFeo8-dRzDqRwXQ2I=::::monkeybizness
