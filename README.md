@@ -35,7 +35,7 @@ sha2text <salt> <hash> <wordlist>
 
 ## Example:
 ```bash
-python3 sha1_dec.py 'd' '$SHA1$d$uP0_QaVBpDWFeo8-dRzDqRwXQ2I=' '/usr/share/wordlists/rockyou.txt'
+python3 sha2text.py 'd' '$SHA1$d$uP0_QaVBpDWFeo8-dRzDqRwXQ2I=' '/usr/share/wordlists/rockyou.txt'
 ```
 
 ---
