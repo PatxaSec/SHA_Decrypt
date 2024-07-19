@@ -39,7 +39,7 @@ hash_type = "SHA1"
 salt = sys.argv[1]
 search = sys.argv[2]
 wordlist = sys.argv[3]
-
+found = False
 encryptor = PasswordEncryptor(hash_type)
 total_lines = sum(1 for _ in open(wordlist, 'r', encoding='latin-1'))
 with open(wordlist, 'r', encoding='latin-1') as password_list:
@@ -48,4 +48,7 @@ with open(wordlist, 'r', encoding='latin-1') as password_list:
         hashed_password = encryptor.crypt_bytes(salt, value.encode('utf-8'))
         if hashed_password == search:
             break
-print(f'\n [+] Pwnd !!! {hashed_password}::::{value}')
+if found:
+    print(f'\n [+] Pwnd !!! {hashed_password}::::{value}')
+else:
+    print("\n[!] Not Found!!")
