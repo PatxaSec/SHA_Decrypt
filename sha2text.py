@@ -47,8 +47,10 @@ with open(wordlist, 'r', encoding='latin-1') as password_list:
         value = password.strip()
         hashed_password = encryptor.crypt_bytes(salt, value.encode('utf-8'))
         if hashed_password == search:
+            found = True
             break
+
 if found:
     print(f'\n [+] Pwnd !!! {hashed_password}::::{value}')
 else:
-    print("\n[!] Not Found!!")
+    print("\n[!] Not found")
